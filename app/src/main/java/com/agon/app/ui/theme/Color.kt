@@ -1,0 +1,25 @@
+package com.agon.app.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+val FlagGreen = Color(0xFF1EB53A)
+val FlagBlue = Color(0xFF0072C6)
+val FlagWhite = Color(0xFFF7F9F6)
+val LeoneGold = Color(0xFFE3B341)
+val Laterite = Color(0xFFB8432F)
+val LateriteDeep = Color(0xFF7A2A1C)
+val ForestCanopy = Color(0xFF1B4332)
+val PalmLeaf = Color(0xFF40916C)
+val HarbourBlue = Color(0xFF0B6E99)
+val HarbourSand = Color(0xFFE8C07A)
+val NightEmber = Color(0xFFE07A3D)
+val NightCloth = Color(0xFF7B2D8E)
+val Ink = Color(0xFF121814)
+val Paper = Color(0xFFF6F3EA)
+val Cream = Color(0xFFFFF8EE)
+val Clay = Color(0xFFD9CBB3)
+val Mist = Color(0xFFE7EEE6)
+val NightBg = Color(0xFF0E1411)
+val NightSurface = Color(0xFF18211C)
+val NightCard = Color(0xFF223028)
+val SoftRed = Color(0xFFB42318)
