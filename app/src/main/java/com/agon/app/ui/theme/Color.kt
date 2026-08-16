@@ -2,24 +2,48 @@ package com.agon.app.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
-val FlagGreen = Color(0xFF1EB53A)
-val FlagBlue = Color(0xFF0072C6)
-val FlagWhite = Color(0xFFF7F9F6)
-val LeoneGold = Color(0xFFE3B341)
-val Laterite = Color(0xFFB8432F)
-val LateriteDeep = Color(0xFF7A2A1C)
-val ForestCanopy = Color(0xFF1B4332)
-val PalmLeaf = Color(0xFF40916C)
-val HarbourBlue = Color(0xFF0B6E99)
-val HarbourSand = Color(0xFFE8C07A)
-val NightEmber = Color(0xFFE07A3D)
-val NightCloth = Color(0xFF7B2D8E)
-val Ink = Color(0xFF121814)
-val Paper = Color(0xFFF6F3EA)
-val Cream = Color(0xFFFFF8EE)
-val Clay = Color(0xFFD9CBB3)
-val Mist = Color(0xFFE7EEE6)
-val NightBg = Color(0xFF0E1411)
-val NightSurface = Color(0xFF18211C)
-val NightCard = Color(0xFF223028)
-val SoftRed = Color(0xFFB42318)
+// Salone Brand Colors (Emerald, Atlantic Blue, Gold, Pristine White)
+val SaloneEmeraldPrimary = Color(0xFF008751) // Sierra Leone Flag Green
+val SaloneEmeraldDark = Color(0xFF005C37)
+val SaloneEmeraldLight = Color(0xFF33B679)
+val SaloneEmeraldContainer = Color(0xFFD0F8E3)
+val SaloneEmeraldOnContainer = Color(0xFF003920)
+
+val SaloneAtlanticBlue = Color(0xFF0066B2) // Sierra Leone Flag Blue
+val SaloneBlueContainer = Color(0xFFD4E8FF)
+val SaloneBlueOnContainer = Color(0xFF002E5C)
+
+val SaloneGold = Color(0xFFFBB034)
+val SaloneGoldContainer = Color(0xFFFFF0D4)
+
+// Light Theme Neutrals
+val LightBackground = Color(0xFFF8FAF9)
+val LightSurface = Color(0xFFFFFFFF)
+val LightSurfaceVariant = Color(0xFFF0F4F2)
+val LightOnSurface = Color(0xFF191C1B)
+val LightOnSurfaceVariant = Color(0xFF3F4945)
+val LightOutline = Color(0xFFBFC9C3)
+
+// Dark Theme Neutrals
+val DarkBackground = Color(0xFF0F1512)
+val DarkSurface = Color(0xFF17201C)
+val DarkSurfaceVariant = Color(0xFF222D28)
+val DarkOnSurface = Color(0xFFE1E4E1)
+val DarkOnSurfaceVariant = Color(0xFFC0C8C3)
+val DarkOutline = Color(0xFF5A6660)
+
+// Chat specific colors
+val ChatBubbleSentLight = Color(0xFFE0F7EB)
+val ChatBubbleSentDark = Color(0xFF004D30)
+val ChatBubbleReceivedLight = Color(0xFFFFFFFF)
+val ChatBubbleReceivedDark = Color(0xFF232D28)
+val ChatOnlineGreen = Color(0xFF10B981)
+val ChatDoubleCheckBlue = Color(0xFF3B82F6)
+
+// Custom Themes for Salon Na We Yon
+enum class SaloneThemeMode {
+    COTTON_TREE_GREEN,
+    ATLANTIC_BLUE,
+    SUNSET_GOLD,
+    FREETOWN_MIDNIGHT
+}
